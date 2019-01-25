@@ -37,12 +37,5 @@ public class Stack<T>
             return null;
         }else return objList.get(objList.size()-1);
     }
-    public void log(){
-        System.out.print("[ ");
-        while(size()>0){
-            System.out.print(pop()+" ");
-        }
-        System.out.print("]");
-        System.out.println();
-    }
+
 }
